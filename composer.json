@@ -26,5 +26,5 @@
         }
     },
 
-    "target-dir": "PRG\\PortableDocumentBundle"
+    "target-dir": "PRG/PortableDocumentBundle"
 }
