@@ -1,0 +1,30 @@
+{
+    "name":        "prg/portabledocument-bundle",
+    "type":        "symfony-bundle",
+    "description": "This bundle to generate PDFs optionally with css styling.",
+    "keywords":    ["pdf", "symfony", "bundle"],
+    "homepage":    "http://github.com/pguso/PortableDocumentBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Patric Gutersohn",
+            "homepage": "http://github.com/pguso"
+        }
+    ],
+
+    "require": {
+        "mpdf/mpdf" : "~5.7",
+        "symfony/framework-bundle": ">=2.0.0"
+    },
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-0": {
+            "PRG\\PortableDocumentBundle": ""
+        }
+    },
+
+    "target-dir": "PRG\\PortableDocumentBundle"
+}
