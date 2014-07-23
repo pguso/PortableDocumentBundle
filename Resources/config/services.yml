@@ -1,0 +1,7 @@
+parameters:
+#    prg_portable_document.example.class: PRG\PortableDocumentBundle\Example
+
+services:
+    pguso.mpdf:
+        class: PRG\PortableDocumentBundle\Service\DocumentService
+        arguments: [@service_container]
